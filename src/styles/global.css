@@ -16,6 +16,10 @@ body {
   color: white;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
 .bg-primary {
   background-color: rgba(49, 28, 135, 0.9) !important;
 }
