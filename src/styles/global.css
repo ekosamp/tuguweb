@@ -1,0 +1,27 @@
+body {
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.btn-sign {
+  background-color: #7156d9;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 0 1px rgba(18, 21, 26, 0.2), 0 1px 4px 0 rgba(18, 21, 26, 0.08), 0 1px 0 0 rgba(18, 21, 26, 0.05);
+          box-shadow: 0 0 0 1px rgba(18, 21, 26, 0.2), 0 1px 4px 0 rgba(18, 21, 26, 0.08), 0 1px 0 0 rgba(18, 21, 26, 0.05);
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.5;
+  font-weight: 600;
+  color: white;
+}
+
+.bg-primary {
+  background-color: rgba(49, 28, 135, 0.9) !important;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+/*# sourceMappingURL=global.css.map */
