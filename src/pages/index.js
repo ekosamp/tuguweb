@@ -1,5 +1,5 @@
 import React from "react"
-import { Nav, Button, Navbar, Container } from "react-bootstrap"
+import { Nav, Button, Navbar, Container, Jumbotron } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/global.css"
 
@@ -22,6 +22,20 @@ export default function Home() {
             </Nav.Link>
           </Container>
         </Navbar>
+        <Jumbotron className="text-center heroku">
+          <h1>The Apollo Data Graph Platform</h1>
+          <p>
+            Simplify app development by combining APIs, databases, and
+            microservices into a single data graph that you can query with
+            GraphQL
+          </p>
+
+          <Button variant="primary" style={{ marginRight: "10px" }}>
+            Start the Tutorial
+          </Button>
+
+          <Button variant="primary">Talk to an Expert</Button>
+        </Jumbotron>
       </>
     </div>
   )

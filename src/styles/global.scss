@@ -34,3 +34,16 @@ body {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
+
+.heroku {
+  background-image: url('../images/bg.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  border-radius: 0px !important;
+}
